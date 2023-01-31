@@ -1,0 +1,6 @@
+#grid {
+    display: grid;
+    background-color: black;
+    height: 700px;
+    width: 700px;
+}
