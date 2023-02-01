@@ -9,6 +9,30 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <div id="gridSetup">
+        <h1 id="title">Etch - a - sketch</h1>
+        <div id="gridSizeDiv">
+            <p class="setupBox">Grid Size</p>
+            <input type="range" min="1" max="100" value="16" class="slider" id="myRange">
+            <p id="demo"></p>
+            
+        </div>
+        <div id="colorPickerDiv">
+            <p class="setupBox">Pick your color: </p>
+            <input type="color" id="colorPicker" value="#000000">
+            <div id="colorIndicator" class="lightIndicator"></div>
+        </div>
+        <div id="darkenDiv">
+            <button type="button" id="darkenButton">Darken Mode</button>
+            <div id="darkenIndicator" class="lightIndicator"></div>
+        </div>
+        <div id="rainbowDiv">
+            <button type="button" id="rainbowButton">Rainbow Mode</button>
+            <div id="rainbowIndicator" class="lightIndicator"></div>
+        </div>
+
+        
+    </div>
     <div id="grid"></div>
 
 </body>
